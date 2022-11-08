@@ -130,7 +130,43 @@ img {
 
 @media screen and (max-width: 768px){
     .container{
-        width: 100%;
+        max-width: 100%;
     }
 }
 
+@media screen and (max-width: 480px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .lessons .col img{
+        height: 100%;
+    }
+
+    .lessons .text{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .why-us .text-center{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .steps, .why-us{
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .why-us{
+        background-color: black;
+        padding: 3em 0;
+    }
+}
