@@ -171,9 +171,10 @@ img {
     }
 }
 
+/* bonus */
+
 @media screen and (min-width: 769px) and (max-width: 1160px){
     .steps{
-        background-color: #eebbc3;
         width: 1160px;
     }
 }
