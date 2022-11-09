@@ -173,14 +173,19 @@ img {
 
 /* bonus */
 
-@media screen and (min-width:769px) and (max-width: 1160px){
+@media screen and (max-width: 1160px){
 
     .container{
         width: 100%;
     }
 
     .row{
-        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
+    .steps .col{
+        width: calc(100% / 2);
+        margin-bottom: 30px;
+    }
  }
